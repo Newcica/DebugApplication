@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/singleInstance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".SingleInstanceActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SingleInstance Launch Mode"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="特点：系统中只有一个实例，在独立的任务栈中存在"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/taskIdText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task ID: "
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/hashCodeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hash Code: "
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/instanceIdText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Instance ID: "
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnStartStandard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动 Standard Activity"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnStartSingleTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动 SingleTop Activity"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnStartSingleTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动 SingleTask Activity"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnStartSingleInstance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动 SingleInstance Activity" />
+
+</LinearLayout>

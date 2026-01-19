@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity Launch Modes Demo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击下面的按钮来体验不同的Activity启动模式："
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnStartStandard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动 Standard Activity"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnStartSingleTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动 SingleTop Activity"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnStartSingleTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动 SingleTask Activity"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnStartSingleInstance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动 SingleInstance Activity"
+        android:layout_marginBottom="8dp" />
+
+    <!-- 添加Fragment演示按钮 -->
+    <Button
+        android:id="@+id/btnStartFragmentDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment 通信演示"
+        android:layout_marginBottom="8dp" />
+        
+    <!-- 添加ViewPager Fragment演示按钮 -->
+    <Button
+        android:id="@+id/btnStartViewPagerFragmentDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewPager Fragment 演示"
+        android:layout_marginBottom="8dp" />
+        
+    <!-- 添加Fragment生命周期演示按钮 -->
+    <Button
+        android:id="@+id/btnStartLifecycleDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment 生命周期演示"
+        android:layout_marginBottom="8dp" />
+    
+    <!-- 添加朋友圈演示按钮 -->
+    <Button
+        android:id="@+id/btnStartMomentsDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="朋友圈演示"
+        android:layout_marginBottom="8dp" />
+        
+    <!-- 添加联系人演示按钮 -->
+    <Button
+        android:id="@+id/btnStartContactsDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="联系人演示"
+        android:layout_marginBottom="8dp" />
+        
+    <Button
+        android:id="@+id/btnStartSocketService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="启动Socket服务"
+        android:layout_marginBottom="8dp" />
+
+</LinearLayout>

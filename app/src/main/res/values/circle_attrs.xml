@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleProgressView">
+        <!-- 进度条背景颜色 -->
+        <attr name="progressBgColor" format="color" />
+        <!-- 进度条颜色 -->
+        <attr name="progressColor" format="color" />
+        <!-- 进度条宽度 -->
+        <attr name="progressWidth" format="dimension" />
+        <!-- 进度最大值 -->
+        <attr name="maxProgress" format="integer" />
+    </declare-styleable>
+</resources>
