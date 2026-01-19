@@ -123,7 +123,7 @@ class MvvmTestActivity : AppCompatActivity() {
         return "模拟网络数据"
     }
 
-    private suspend fun debugGit4(): String {
+    private suspend fun debugGit5(): String {
         delay(2000)
         return "模拟网络数据"
     }
